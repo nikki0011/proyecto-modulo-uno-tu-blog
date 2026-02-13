@@ -26,6 +26,17 @@ main{
     flex-grow: 1;
 }
 
+.resize{
+    resize: none;
+}
+
+.usuarios{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: red;
+}
+
 @media (width>768px){
     .slide img{
         height: 400px;
