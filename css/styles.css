@@ -1,62 +1,74 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
 /* * navbar */
-.logo-tu-blog-nav{
-    width: 40px;
+.logo-tu-blog-nav {
+  width: 40px;
 }
 
 /* *main */
 
-.slide img{
-    width: 100%;
-    min-height: 300px;
-    object-fit: cover;
+.slide img {
+  width: 100%;
+  min-height: 300px;
+  object-fit: cover;
 }
 
-footer img{
-    width: 80px;
+footer img {
+  width: 80px;
 }
 
-body{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-main{
-    flex-grow: 1;
+main {
+  flex-grow: 1;
 }
 
-.resize{
-    resize: none;
+.resize {
+  resize: none;
 }
 
-.usuarios{
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background-color: red;
+.usuarios {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: red;
 }
 
-.bannerMercadolibre{
-position: sticky;
-top:20px;
+.bannerMercadolibre {
+  position: sticky;
+  top: 20px;
 }
 
-.galeria{
-    border: 2px solid rgb(185, 180, 180);
-    border-radius: 5px 80px 5px 80px;
-    box-shadow: 10px 10px 10px 3px rgb(17, 17, 17);
+.galeria {
+  border: 2px solid rgb(185, 180, 180);
+  border-radius: 5px 80px 5px 80px;
+  box-shadow: 10px 10px 10px 3px rgb(17, 17, 17);
 }
 
-.galeria:hover{
-    background-color: rgb(155, 92, 92) !important;
-    border: 2px solid rgb(88, 87, 87);
-    border-radius: 5px 10px 5px 10px;
-    box-shadow: 13px 18px 15px 5px rgb(17, 17, 17);
+.galeria:hover {
+  background-color: rgb(155, 92, 92) !important;
+  border: 2px solid rgb(88, 87, 87);
+  border-radius: 5px 10px 5px 10px;
+  box-shadow: 13px 18px 15px 5px rgb(17, 17, 17);
 }
 
-@media (width>768px){
-    .slide img{
-        height: 400px;
-    }
+.card-galeria {
+  box-shadow: 6px 10px 10px 0px black;
+  border: none;
+}
+
+.card-galeria img:hover {
+  transform: scale(1.3);
+  transition: 0.5s;
+  border-radius: 5px 80px 5px 80px;
+}
+
+@media (width>768px) {
+  .slide img {
+    height: 400px;
+  }
 }
