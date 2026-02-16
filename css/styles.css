@@ -42,6 +42,19 @@ position: sticky;
 top:20px;
 }
 
+.galeria{
+    border: 2px solid rgb(185, 180, 180);
+    border-radius: 5px 80px 5px 80px;
+    box-shadow: 10px 10px 10px 3px rgb(17, 17, 17);
+}
+
+.galeria:hover{
+    background-color: rgb(155, 92, 92) !important;
+    border: 2px solid rgb(88, 87, 87);
+    border-radius: 5px 10px 5px 10px;
+    box-shadow: 13px 18px 15px 5px rgb(17, 17, 17);
+}
+
 @media (width>768px){
     .slide img{
         height: 400px;
