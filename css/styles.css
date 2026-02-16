@@ -47,7 +47,7 @@ main {
 }
 
 .galeria:hover {
-  background-color: rgb(155, 92, 92) !important;
+  background-color: rgb(173, 104, 104) !important;
   border: 2px solid rgb(88, 87, 87);
   border-radius: 5px 80px 5px 80px;
 }
