@@ -13,7 +13,6 @@
   object-fit: cover;
 }
 
-
 body {
   display: flex;
   flex-direction: column;
@@ -43,7 +42,7 @@ main {
 .galeria {
   border: 2px solid rgb(185, 180, 180);
   box-shadow: 10px 10px 10px 3px rgb(17, 17, 17);
-  border-radius: 5px 50Px 5px 50px;
+  border-radius: 5px 50px 5px 50px;
 }
 
 .galeria:hover {
@@ -57,7 +56,7 @@ main {
   border: none;
 }
 
-.card-galeria img{
+.card-galeria img {
   min-height: 250px;
   max-height: 250px;
   object-fit: cover;
@@ -67,6 +66,15 @@ main {
   transform: scale(1.2);
   transition: 0.5s;
   border-radius: 5px 20px 5px 20px;
+}
+
+/* formulario login */
+.form-login {
+  max-height: 400px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 /* * FOOTER */
@@ -79,17 +87,17 @@ footer img {
   .slide img {
     height: 400px;
   }
-    .card-galeria img{
-  min-height: 143px;
-  max-height: 143px;
-  object-fit: cover;
-}
+  .card-galeria img {
+    min-height: 143px;
+    max-height: 143px;
+    object-fit: cover;
+  }
 }
 
-@media(width>992px){
-  .card-galeria img{
-  min-height: 143px;
-  max-height: 143px;
-  object-fit: cover;
-}
+@media (width>992px) {
+  .card-galeria img {
+    min-height: 143px;
+    max-height: 143px;
+    object-fit: cover;
+  }
 }
