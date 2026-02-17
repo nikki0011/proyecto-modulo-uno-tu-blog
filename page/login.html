@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="tu-blog-proyecto-modulo-1" />
+    <meta name="author" content="nairPaez-samiraCarrera" />
+    <link
+      rel="shortcut icon"
+      href="../img/LOGO-TU-BLOG-BLACO.jpg"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Tu-Blog-Login</title>
+  </head>
+  <body>
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand-lg bg-black px-md-5">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="../index.html">Tu Blog</a>
+          <a href="../index.html" class="me-auto"
+            ><img
+              src="../img/LOGO-TU-BLOG-BLACO.jpg"
+              alt="logo-tu-blog"
+              class="logo-tu-blog-nav"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto gap-3 row-gap-0 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-light opacity-75"
+                  aria-current="page"
+                  href="./acerca-de-nosotros.html"
+                  >Nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light opacity-75" href="./contacto.html"
+                  >Contacto</a
+                >
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link text-light" href="./login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-light opacity-75"
+                  href="./suscripcion.html"
+                  >Registrarse</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="mt-md-5">
+      <h1 class="mt-md-3 text-decoration-underline text-center">
+        Inicia sesión en tu cuenta
+      </h1>
+      <div class="container">
+        <div class="row mt-md-5">
+          <div class="col-12 col-md-6">
+            <form>
+              <div class="mb-3">
+                <div class="d-flex mb-2">
+                  <label for="email" class="form-label"
+                    ><i class="bi bi-google fs-4"></i
+                  ></label>
+                  <input
+                    type="email"
+                    class="form-control bg-dark-subtle ms-1 fs-5"
+                    id="email"
+                    aria-describedby="emailHelp"
+                    required
+                    placeholder="Ingrese con su cuenta de Google"
+                    maxlength="60"
+                    minlength="1"
+                  />
+                </div>
+                <div class="d-flex mb-4">
+                  <label for="email" class="form-label"
+                    ><i class="bi bi-facebook fs-4"></i
+                  ></label>
+                  <input
+                    type="email"
+                    class="form-control bg-dark-subtle ms-1 fs-5"
+                    id="email"
+                    aria-describedby="emailHelp"
+                    required
+                    placeholder="Ingrese con su cuenta de Facebook"
+                    maxlength="60"
+                    minlength="1"
+                  />
+                </div>
+                <label for="email" class="form-label">Correo Electronico</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  aria-describedby="emailHelp"
+                  required
+                  placeholder="Ingrese su correo electronico"
+                  maxlength="60"
+                  minlength="1"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  required
+                  placeholder="Ingrese su password"
+                  maxlength="60"
+                  minlength="1"
+                />
+              </div>
+              <button type="submit" class="btn btn-primary w-100 fs-5 py-0">Iniciar sesión</button>
+            </form>
+          </div>
+          <div class="col-12 col-md-6"></div>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-black py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 text-center mb-4 mb-md-0">
+            <img src="../img/LOGO-TU-BLOG-BLACO.jpg" alt="log-tu-blog" />
+          </div>
+          <div
+            class="col-12 col-md-4 d-flex justify-content-center align-items-center gap-3 fs-1 mb-4 mb-md-0"
+          >
+            <a href="./error-404.html" class="text-secondary"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="./error-404.html" class="text-secondary"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a href="./error-404.html" class="text-secondary"
+              ><i class="bi bi-twitch"></i
+            ></a>
+          </div>
+          <div class="col-12 col-md-4 d-flex row text-center ms-1">
+            <a href="./error-404.html" class="text-secondary"
+              >Ultimas Noticias</a
+            >
+            <a href="./error-404.html" class="text-secondary">Sobre Nosotros</a>
+            <a href="./error-404.html" class="text-secondary">Contacto</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
