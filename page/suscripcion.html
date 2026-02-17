@@ -73,26 +73,77 @@
       <h1 class="my-4 mt-md-3 text-decoration-underline text-center">
         Registrate
       </h1>
-      <form>
-        <div class="row">
-          <div class="col">
-            <input
-              type="text"
-              class="form-control"
-              placeholder="First name"
-              aria-label="First name"
-            />
+      <div
+        class="container mx-md-auto d-flex justify-content-center align-items-center p-md-5 w-75"
+      >
+        <form>
+          <div class="row">
+            <div class="col-12 col-md-6">
+            <label for="name" class="form-label">Nombre</label>
+              <input
+                type="text"
+                id="name"
+                class="form-control"
+                placeholder="ej:Pablo"
+                aria-label="First name"
+                required
+                maxlength="60"
+                minlength="1"
+              />
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+            <label for="apellido" class="form-label">Apellido</label>
+              <input
+                type="text"
+                id="apellido"
+                class="form-control"
+                placeholder="ej:Lopez"
+                aria-label="Last name"
+                required
+                maxlength="60"
+                minlength="1"
+              />
+            </div>
+            <div class="col-md-6">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" required
+                maxlength="60" minlength="1"/>
+            </div>
+            <div class="col-md-6">
+              <label for="password" class="form-label">Password</label>
+              <input type="password" class="form-control" id="password" required maxlength="60" minlength="1" />
+            </div>
+            <div class="col-md-6">
+              <label for="inputAddress" class="form-label">Address</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputAddress"
+                placeholder="San Miguel"
+              />
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">City</label>
+              <input type="text" class="form-control" id="inputCity" />
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="gridCheck"
+                />
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
           </div>
-          <div class="col">
-            <input
-              type="text"
-              class="form-control"
-              placeholder="Last name"
-              aria-label="Last name"
-            />
-          </div>
-        </div>
-      </form>
+        </form>
+      </div>
     </main>
     <footer class="bg-black py-3">
       <div class="container">
