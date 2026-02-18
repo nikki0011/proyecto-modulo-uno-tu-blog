@@ -69,22 +69,22 @@
         </div>
       </nav>
     </header>
-    <main class="mt-5 mt-md-5 mb-3">
+    <main class="mt-5 mt-md-5 mb-5">
       <h1 class="my-4 mt-md-3 text-decoration-underline text-center">
         Registrate
       </h1>
       <div
-        class="container mx-md-auto d-flex justify-content-center align-items-center p-md-5 w-75"
+        class="container mx-md-auto d-flex p-md-5 w-75"
       >
         <form>
           <div class="row">
-            <div class="col-12 col-md-6">
-            <label for="name" class="form-label">Nombre</label>
+            <div class="col-12 col-md-6 mb-4">
+              <label for="name" class="form-label">Nombre</label>
               <input
                 type="text"
                 id="name"
                 class="form-control"
-                placeholder="ej:Pablo"
+                placeholder="Ingrese su Nombre"
                 aria-label="First name"
                 required
                 maxlength="60"
@@ -92,58 +92,94 @@
               />
             </div>
             <div class="col-12 col-md-6 mb-4">
-            <label for="apellido" class="form-label">Apellido</label>
+              <label for="apellido" class="form-label">Apellido</label>
               <input
                 type="text"
                 id="apellido"
                 class="form-control"
-                placeholder="ej:Lopez"
+                placeholder="Ingrese su Apellido"
                 aria-label="Last name"
                 required
                 maxlength="60"
                 minlength="1"
               />
             </div>
-            <div class="col-md-6">
-              <label for="email" class="form-label">Email</label>
-              <input type="email" class="form-control" id="email" required
-                maxlength="60" minlength="1"/>
-            </div>
-            <div class="col-md-6">
-              <label for="password" class="form-label">Password</label>
-              <input type="password" class="form-control" id="password" required maxlength="60" minlength="1" />
-            </div>
-            <div class="col-md-6">
-              <label for="inputAddress" class="form-label">Address</label>
+            <div class="col-md-6 mb-4">
+              <label for="direccion" class="form-label">Dirección</label>
               <input
                 type="text"
                 class="form-control"
-                id="inputAddress"
-                placeholder="San Miguel"
+                id="direccion"
+                placeholder="Ingrese dirección"
+                required
+                maxlength="60"
+                minlength="1"
               />
             </div>
+            <div class="col-md-6 mb-4">
+              <label for="ciudad" class="form-label">Ciudad</label>
+              <input type="text" class="form-control" id="ciudad" required
+                maxlength="60"
+                minlength="1"
+                placeholder="Ingrese Ciudad"/>
+            </div>
             <div class="col-md-6">
-              <label for="inputCity" class="form-label">City</label>
-              <input type="text" class="form-control" id="inputCity" />
+              <label for="email" class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-control mb-4"
+                id="email"
+                required
+                maxlength="60"
+                minlength="1"
+                placeholder="Ingrese su Email"
+              />
+            </div>
+            <div class="col-md-6 mb-4">
+              <label for="password" class="form-label">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="password"
+                required
+                maxlength="60"
+                minlength="1"
+                placeholder="Eliga su contraseña"
+              />
+            </div>
+            <div class="col-md-6 mb-4">
+              <label for="password" class="form-label"
+                >Confirmar Password</label
+              >
+              <input
+                type="password"
+                class="form-control"
+                id="password"
+                required
+                maxlength="60"
+                minlength="1"
+                placeholder="Confirmar Passwoerd"
+              />
             </div>
             <div class="col-12">
               <div class="form-check">
                 <input
                   class="form-check-input"
                   type="checkbox"
-                  id="gridCheck"
+                  id="acuerdo-terminos"
+                  required
                 />
-                <label class="form-check-label" for="gridCheck">
-                  Check me out
+                <label class="form-check-label mb-3" for="acuerdo-terminos">
+                  Estoy de acuerdo con las condiciones y políticas
                 </label>
               </div>
             </div>
             <div class="col-12">
-              <button type="submit" class="btn btn-primary">Sign in</button>
+              <button type="submit" class="btn btn-primary w-100 bg-secondary border-0">REGISTRARME</button>
             </div>
           </div>
         </form>
-      </div>
+        </div>
     </main>
     <footer class="bg-black py-3">
       <div class="container">
