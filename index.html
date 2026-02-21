@@ -1,19 +1,328 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="tu-blog-proyecto-modulo-1">
-    <meta name="author" content="nairPaez-samiraCarrera">
-    <link rel="shortcut icon" href="./img/LOGO-TU-BLOG-negro.jpg" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="tu-blog-proyecto-modulo-1" />
+    <meta name="author" content="nairPaez-samiraCarrera" />
+    <link
+      rel="shortcut icon"
+      href="./img/LOGO-TU-BLOG-negro.jpg"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Tu Blog</title>
-</head>
-<body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-</body>
+  </head>
+  <body>
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand-lg bg-black px-md-5">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="./index.html">Tu Blog</a>
+          <a href="./index.html" class="me-auto"
+            ><img
+              src="./img/LOGO-TU-BLOG-BLACO.jpg"
+              alt="logo-tu-blog"
+              class="logo-tu-blog-nav"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto gap-3 row-gap-0 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-light opacity-75"
+                  aria-current="page"
+                  href="./page/acerca-de-nosotros.html"
+                  >Nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-light opacity-75"
+                  href="./page/contacto.html"
+                  >Contacto</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-light opacity-75"
+                  href="./page/login.html"
+                  >Login</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-light opacity-75"
+                  href="./page/suscripcion.html"
+                  >Registrarse</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="carouselCryptoApp" class="carousel slide mt-0">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselCryptoApp"
+            data-bs-slide-to="0"
+            class="active bg-light"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselCryptoApp"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+            class="bg-light"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselCryptoApp"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+            class="bg-light"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/banner-slider.jfif" alt="noticias-global" />
+            <div
+              class="carousel-caption d-none d-md-block bg-light text-black bg-opacity-25 rounded"
+            >
+              <h5>TU BLOG</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/banner-slider-2.jfif" alt="noticias-black" />
+            <div
+              class="carousel-caption d-none d-md-block bg-light text-light bg-opacity-10 rounded"
+            >
+              <h5>TU BLOG</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/banner-slider-3.jfif" alt="noticias-clasificadas" />
+            <div
+              class="carousel-caption d-none d-md-block bg-light text-light bg-opacity-10 rounded"
+            >
+              <h5>TU BLOG</h5>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselCryptoApp"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselCryptoApp"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </section>
+      <section>
+        <h1 class="text-center text-bg-secondary py-3">
+          LO QUE NECESITAS EN Tu BLoG
+        </h1>
+        <div class="container-fluid my-5">
+          <div class="row mx-md-2 mx-lg-5">
+            <div class="col-12 col-md-6">
+              <div class="card w-100">
+                <img
+                  src="./img/foto-tenista.avif"
+                  class="card-img-top"
+                  alt="jao fonseca"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center">
+                    El lamento de João Fonseca: el brasileño, campeón defensor
+                    en el ATP de Buenos Aires, debutó en los 8vos de final y
+                    quedó eliminado
+                  </h5>
+                  <p class="card-text">
+                    João Fonseca pisó el polvo de ladrillo del court central
+                    Buenos Aires Lawn Tennis Club, el más emblemático del país,
+                    después de 360 días..
+                  </p>
+                  <a href="./page/articulo-uno.html">..ver mas</a>
+                </div>
+              </div>
+              <div class="card w-100 my-5">
+                <img
+                  src="./img/barco-ia.avif"
+                  class="card-img-top"
+                  alt="barco-ia"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center">
+                    Tercera Guerra Mundial: estas serán las primeras ciudades en
+                    caer, según la IA
+                  </h5>
+                  <p class="card-text">
+                    Las crecientes tensiones entre potencias mundiales reavivan
+                    el temor a una Tercera Guerra Mundial. Enterate qué dijo la
+                    inteligencia artificial...
+                  </p>
+                  <a href="./page/articulo-dos.html">..ver mas</a>
+                </div>
+              </div>
+              <div class="card w-100">
+                <img
+                  src="./img/franco-colapinto.webp"
+                  class="card-img-top"
+                  alt="franco-colapinto"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center">
+                    Franco Colapinto se ilusiona con la próxima temporada de la
+                    F1 tras el GP de Abu Dhabi: "Cero"
+                  </h5>
+                  <p class="card-text">
+                    El piloto argentino hizo un posteo en sus redes sociales
+                    después del cierre de una temporada complicada con Alpine.
+                    Qué dijo...
+                  </p>
+                  <a href="./page/articulo-tres.html">..ver mas</a>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 mt-3 d-flex gap-3">
+                <a href="./page/error-404.html" class="text-black fs-3"
+                  >pag.1</a
+                >
+                <a href="./page/error-404.html" class="text-black fs-3">2</a>
+                <a href="./page/error-404.html" class="text-black fs-3">3</a>
+                <a href="./page/error-404.html" class="text-black fs-3">4</a>
+                <a href="./page/error-404.html" class="text-black fs-3">5...</a>
+                <a href="./page/error-404.html" class="text-black fs-3">25</a>
+              </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <form class="mt-4">
+                <label for="busquedaArticulo" class="form-label"
+                  >Que estas buscando?:</label
+                >
+                <input
+                  class="form-control"
+                  list="opciones"
+                  id="busquedaArticulo"
+                  placeholder="Que articulos buscas?"
+                />
+                <datalist id="opciones">
+                  <option value="Deportes"></option>
+                  <option value="Exploracion"></option>
+                  <option value="Espacio"></option>
+                  <option value="Fenomenos naturales"></option>
+                  <option value="Politica"></option>
+                </datalist>
+              </form>
+              <h6 class="mt-4">Categorias:</h6>
+              <ul>
+                <li>
+                  <a href="./page/error-404.html" class="text-decoration-none"
+                    >Deportes</a
+                  >
+                </li>
+                <li>
+                  <a href="./page/error-404.html" class="text-decoration-none"
+                    >Descubrimiento Naturales</a
+                  >
+                </li>
+                <li>
+                  <a href="./page/error-404.html" class="text-decoration-none"
+                    >Politica</a
+                  >
+                </li>
+                <li>
+                  <a href="./page/error-404.html" class="text-decoration-none"
+                    >Otros</a
+                  >
+                </li>
+              </ul>
+              <div class="d-none d-md-block bannerMercadolibre mt-5">
+                <img
+                  src="./img/mercadolibre-banner.png"
+                  alt="banner-mercado-libre"
+                  class="w-100"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="my-5 mx-5 d-flex justify-content-center">
+        <a
+          href="./page/galeria-de-imagenes.html"
+          class="text-decoration-none text-black fst-italic fw-bold fs-4 text-center py-3 px-5 bg-dark bg-opacity-50 galeria"
+          >GALERIA DE IMÁGENES</a
+        >
+      </div>
+    </main>
+    <footer class="bg-black py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 text-center mb-4 mb-md-0">
+            <img src="./img/LOGO-TU-BLOG-BLACO.jpg" alt="log-tu-blog" />
+          </div>
+          <div
+            class="col-12 col-md-4 d-flex justify-content-center align-items-center gap-3 fs-1 mb-4 mb-md-0"
+          >
+            <a href="./page/error-404.html" class="text-secondary"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="./page/error-404.html" class="text-secondary"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a href="./page/error-404.html" class="text-secondary"
+              ><i class="bi bi-twitch"></i
+            ></a>
+          </div>
+          <div class="col-12 col-md-4 d-flex row text-center ms-1">
+            <a href="./page/error-404.html" class="text-secondary"
+              >Ultimas Noticias</a
+            >
+            <a href="./page/error-404.html" class="text-secondary"
+              >Sobre Nosotros</a
+            >
+            <a href="./page/error-404.html" class="text-secondary">Contacto</a>
+          </div>
+        </div>
+      </div>
+      <p class='text-center text-secondary mt-4 fs-5'>
+        &copy; CopyRight 2026 Tu Blog. Todos los derechos reservados.
+      </p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
